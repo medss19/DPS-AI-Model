@@ -1,0 +1,73 @@
+PS C:\Users\Medha Agarwal\Desktop\DPS AI Model> python -u "c:\Users\Medha Agarwal\Desktop\DPS AI Model\sarima.py"
+Best Order: (1, 1, 2)
+Best Seasonal Order: (0, 1, 1, 12)
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            5     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.19088D+00    |proj g|=  8.58013D-02
+
+At iterate    5    f=  3.17072D+00    |proj g|=  7.37867D-02
+
+At iterate   10    f=  3.12829D+00    |proj g|=  3.30285D-02
+
+At iterate   15    f=  3.12757D+00    |proj g|=  3.80551D-03
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    5     19     25      1     0     0   2.520D-06   3.128D+00
+  F =   3.1275500195566868
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+
+2021 Monthly Forecast:
+2021-01-01    24.111459
+2021-02-01    26.715073
+2021-03-01    29.986138
+2021-04-01    29.621669
+2021-05-01    38.002326
+2021-06-01    40.904716
+2021-07-01    50.341722
+2021-08-01    38.884326
+2021-09-01    44.340375
+2021-10-01    36.611066
+2021-11-01    29.253794
+2021-12-01    26.232093
+Freq: MS, Name: predicted_mean, dtype: float64
+2021 Model Testing Results:
+Mean Absolute Error (MAE): 8.33
+Mean Squared Error (MSE): 80.14
+Root Mean Squared Error (RMSE): 8.95
+Mean Absolute Percentage Error (MAPE): 35.30%
+
+Detailed Comparison:
+            Actual  Predicted  Absolute Error  Percentage Error
+2021-01-01    16.0  24.111459        8.111459         50.696621
+2021-02-01    14.0  26.715073       12.715073         90.821948
+2021-03-01    24.0  29.986138        5.986138         24.942240
+2021-04-01    16.0  29.621669       13.621669         85.135429
+2021-05-01    24.0  38.002326       14.002326         58.343027
+2021-06-01    48.0  40.904716        7.095284         14.781841
+2021-07-01    44.0  50.341722        6.341722         14.413005
+2021-08-01    46.0  38.884326        7.115674         15.468856
+2021-09-01    54.0  44.340375        9.659625         17.888194
+2021-10-01    43.0  36.611066        6.388934         14.857986
+2021-11-01    33.0  29.253794        3.746206         11.352138
+2021-12-01    21.0  26.232093        5.232093         24.914727
