@@ -1,0 +1,34 @@
+PS C:\Users\Medha Agarwal\Desktop\DPS AI Model> python -u "c:\Users\Medha Agarwal\Desktop\DPS AI Model\fbprophet.py"
+Loading and preparing data...
+
+Training data summary:
+Date range: 2000-01-01 00:00:00 to 2020-12-01 00:00:00
+Total records: 252
+
+Actual data summary:
+Date range: 2000-01-01 00:00:00 to 2022-12-01 00:00:00
+Total records: 276
+
+Training model...
+19:12:03 - cmdstanpy - INFO - Chain [1] start processing
+19:12:03 - cmdstanpy - INFO - Chain [1] done processing
+
+Forecast for 2021:
+            ds       yhat  yhat_lower  yhat_upper
+253 2021-01-31  24.056679   14.360251   33.796939
+254 2021-02-28  27.612030   18.200185   37.691729
+255 2021-03-31  30.445201   21.160514   40.408037
+256 2021-04-30  36.667758   27.692228   46.026486
+257 2021-05-31  36.466264   26.723001   46.298476
+258 2021-06-30  42.854728   33.295745   53.236402
+259 2021-07-31  35.235286   25.589650   45.267870
+260 2021-08-31  44.700927   34.952636   55.437816
+261 2021-09-30  37.469193   27.952139   47.148150
+262 2021-10-31  29.644107   19.812996   39.964768
+263 2021-11-30  31.835074   22.339528   41.745793
+264 2021-12-31  26.656445   16.500605   36.577602
+
+Mean Absolute Error (2021): 9.43
+Root Mean Squared Error (2021): 11.05
+
+Generating plots...
