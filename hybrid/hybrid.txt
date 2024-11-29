@@ -1,0 +1,10 @@
+PS C:\Users\Medha Agarwal\Desktop\DPS AI Model> python -u "c:\Users\Medha Agarwal\Desktop\DPS AI Model\hybrid.py"
+Training data shape: (252,)
+Test data shape: (12,)
+Forecasting 12 steps ahead...
+Training data range: 2000-01-01 00:00:00 to 2020-12-01 00:00:00
+Forecast period: 2021-01-01 00:00:00 to 2021-12-01 00:00:00
+19:20:29 - cmdstanpy - INFO - Chain [1] start processing
+19:20:29 - cmdstanpy - INFO - Chain [1] done processing
+Hybrid Model - Mean Absolute Error: 8.42
+Hybrid Model - Root Mean Squared Error: 9.17
